@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Автозайм</title>
+	<!-- Bootstrap && jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Yandex.Maps -->
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<!-- Smooth-scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+	<!-- Custom -->
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<div id="main" class="main container container_full-width">
+		<div class="row">
+			<div class="main__wrapper col-md-12">
+				<nav class="navbar navbar-fixed-top navbar-dock">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#main" class="navbar-left brand"><img src="img/navbar-logo.png" class="brand__image">
+							</a>
+							<div class="navbar-brand__text ">
+								<span class="navbar-brand__text-title">Автозайм</span>
+								<br/>
+								<span class="navbar-brand__text-subtitle">денежные займы под залог ПТС</span>
+							</div>
+						</div>
+						<div class="navbar-items hidden-sm hidden-xs">
+							<ul class="nav navbar-nav pull-right">
+								<li class="navbar-items__text"><a href="#main">Главная</a></li>
+								<li class="navbar-items__text"><a href="#advantages">Преимущества</a></li>
+								<li class="navbar-items__text"><a href="#steps">Схема работы</a></li>
+								<li class="navbar-items__text"><a href="#map">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="navbar-phone-group pull-right ">
+							<button class="btn">заказать звонок</button>
+							<span class="phone-number">8 (843) 212-11-07</span>
+						</div>
+					</div>
+				</nav>
+				<div class="main__text">
+					<span>Получите денежный займ под залог ПТС за&nbsp;15&nbsp;минут в&nbsp;размере до&nbsp;90% от&nbsp;стоимости автомобиля</span>
+				</div>
+				<div class="main__group container">
+					<div class="main__list col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-10 hidden-xs">
+						<ul>
+							<li>Авто остается у&nbsp;вас</li>
+							<li>Бесплатная оценка автомобиля</li>
+							<li>Ни&nbsp;одного случая принудительного изъятия залога</li>
+						</ul>
+					</div>
+					<div class="main__form col-md-5 col-sm-offset-1 col-sm-10 col-xs-12">
+						<form class="form-consultation">
+							<span class="form-consultation__text">Получите бесплатную консультацию по&nbsp;быстрым займам</span>
+							<div class="input-group form-consultation__input-group-name">
+								<span class="input-group-addon form-consultation__input-group-addon_name"><img src="img/name-field-icon.png"></span>
+								<input type="text" class="form-consultation__name-input form-control" placeholder="Имя...">
+							</div>
+							<div class="input-group form-consultation__input-group-phone">
+								<span class="input-group-addon form-consultation__input-group-addon_phone"><img src="img/phone-field-icon.png"></span>
+								<input type="text" class="form-consultation__phone-input form-control" placeholder="Телефон...">
+							</div>
+							<button type=submit class="form-submit btn">Получить консультацию</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="advantages" class="advantages container">
+		<div class="advantages__wrapper">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Авто остается у&nbsp;вас</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Нам не&nbsp;важна<br/>кредитная история</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Вы&nbsp;получите сумму в<br/>размере до&nbsp;90% от<br/>стоимости автомобиля</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Максимальная сумма<br/>залога 3&nbsp;млн</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Время получения<br/>15&nbsp;минут</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Беспроцентный<br/>срок 7&nbsp;дней</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Бесплатная оценка<br/>автомобиля</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Ни&nbsp;одного случая принудительного<br/>изъятия залога</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-offset-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Ставка<br/>4% в&nbsp;месяц</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="advantages__circle"></div>
+					<p class="advantages__text">Полностью<br/>прозрачная работа</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="steps" class="steps">
+		<div class="container">
+			<div class="steps__wrapper">
+				<div class="row steps__numbers">
+					<div class="col-md-2 col-sm-6 col-xs-12"><span>1</span>
+						<p class="steps__text hidden-md hidden-lg">Вы&nbsp;звоните нам</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12"><span>2</span>
+						<p class="steps__text hidden-md hidden-lg">Присылаете нам<br/>документы для<br/>проверки</p>
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-12"><span>3</span>
+						<p class="steps__text hidden-md hidden-lg">Через 15&nbsp;минут вам<br/> сообщается решение,<br/>какую сумму можете<br/>получить</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12"><span>4</span>
+						<p class="steps__text hidden-md hidden-lg">К&nbsp;вашему приезду<br/>менеджер<br/>подготавливает<br/>необходимые<br/>документы</p>
+					</div>
+					<div class="col-md-2 col-sm-12 col-xs-12"><span>5</span>
+						<p class="steps__text hidden-md hidden-lg">Приезжаете за<br/>деньгами и&nbsp;уезжаете<br/>на&nbsp;своем авто</p>
+					</div>
+				</div>
+
+				<div class="row steps__line hidden-xs hidden-sm">
+					<img src="img/line.png">
+				</div>
+
+				<div class="row steps__text hidden-xs hidden-sm">
+					<div class="col-md-2">
+						<p>Вы&nbsp;звоните нам</p>
+					</div>
+					<div class="col-md-3">
+						<p>Присылаете нам<br/>документы для<br/>проверки</p>
+					</div>
+					<div class="col-md-2">
+						<p>Через 15&nbsp;минут вам сообщается решение, какую сумму можете получить</p>
+					</div>
+					<div class="col-md-3">
+						<p>К&nbsp;вашему приезду<br/>менеджер<br/>подготавливает<br/>необходимые<br/>документы</p>
+					</div>
+					<div class="col-md-2">
+						<p>Приезжаете за&nbsp;деньгами и&nbsp;уезжаете на&nbsp;своем авто</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<form class="form_dark">
+						<div class="form__field_dark">
+							<div class="input-group">
+								<span class="input-group-addon form__field-addon-name_dark"><img src="img/name-field-icon.png" alt=""></span>
+								<input type="text" class="form__field-input_dark form-control" placeholder="Имя...">
+							</div>
+						</div>
+						<div class="form__field_dark">
+							<div class="input-group">
+								<span class="input-group-addon form__field-addon-phone_dark"><img src="img/phone-field-icon.png" alt=""></span>
+								<input type="text" class="form__field-input_dark form-control" placeholder="Телефон...">
+							</div>
+						</div>
+						<button type="submit" class="form-submit btn">Заказать звонок</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ya-map" id="map"></div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<h3 class="footer__header">Узнай, сколько денег получишь за&nbsp;свой автомобиль!</h3>
+			</div>
+			<div class="row">
+				<form class="form_dark">
+					<div class="form__field_dark">
+						<div class="input-group">
+							<span class="input-group-addon form__field-addon-name_dark"><img src="img/name-field-icon.png" alt=""></span>
+							<input type="text" class="form__field-input_dark form-control" placeholder="Имя...">
+						</div>
+					</div>
+					<div class="form__field_dark">
+						<div class="input-group">
+							<span class="input-group-addon  form__field-addon-phone_dark"><img src="img/phone-field-icon.png" alt=""></span>
+							<input type="text" class="form__field-input_dark form-control" placeholder="Телефон...">
+						</div>
+					</div>
+					<button type="submit" class="form-submit btn">Узнать</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

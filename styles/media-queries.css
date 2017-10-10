@@ -1,0 +1,74 @@
+
+@media only screen and (max-width : 1199px) {
+	.navbar-phone-group .btn {
+		width: 33%;
+	}
+	.navbar-phone-group .phone-number {
+		font-size: 1.5rem;
+	}
+	.navbar-header {
+		display: inherit;
+	}
+	.navbar-items {
+		display: inline-table;
+	}
+}
+
+
+@media only screen and (max-width : 991px) {
+	.navbar-phone-group .btn {
+		width: 100%;
+	}
+	.navbar-phone-group .phone-number {
+		font-size: 2rem;
+	}
+	.form-consultation::after {
+		display: none;
+	}
+	.form-consultation {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.form_dark {
+		padding: 5rem;
+	}
+	.form__field_dark,
+	.form_dark .form-submit {
+		display: block;
+		width: 95%;
+		margin: 10px auto;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.navbar .container {
+		display: block;
+	}
+	.navbar-phone-group {
+		width: 100%;
+	}
+	.navbar-phone-group .btn {
+		width: 50%;
+	}
+	.brand {
+		float: left;
+	}
+	.navbar-header {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.main__wrapper {
+		padding-top: 150px;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	.navbar-header {
+		display: none;
+	}
+	.main__wrapper {
+		padding-top: 200px;
+	}
+}

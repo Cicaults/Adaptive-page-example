@@ -1,0 +1,86 @@
+.container_full-width {
+	width: 100%;
+	padding: 0;
+}
+
+.main__wrapper {
+	padding-top: 100px;
+	background: url(../img/main-bg.png) no-repeat;
+	background-size: cover;
+	width: 100vw;
+	min-height: 350px;
+	text-align: center;
+}
+
+.main__group {
+	padding: 5% 0 5% 0;
+}
+
+.main__text {
+	font-family: Underground-Heavy;
+	font-size: 2.8rem;
+	color: #FFFF33;
+	text-transform: uppercase;
+	width: 80%;	
+	margin: auto;
+}
+
+.main__list {
+	font-family: Underground-Book;
+	font-size: 1.6rem;
+	padding-top: 7%;
+	text-align: left;
+	color: white;
+	list-style-image: url(../img/marker.png);
+}
+
+.form-consultation {
+	font-family: Underground-Book;
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	border-radius: 4px;
+	position: relative;
+	display: inline-block;
+	padding: 30px;
+}
+
+.form-consultation__text {
+	font-size: 1.8rem
+}
+
+.form-consultation__input-group-name, 
+.form-consultation__input-group-phone {
+	padding-top: 10px;
+}
+
+.form-consultation__name-input,
+.form-consultation__phone-input {
+	height: 50px;
+}
+
+.form-consultation__input-group-addon_name,
+.form-consultation__input-group-addon_phone {
+	background-color: black;
+	padding: 10px 20px 10px 20px;
+}
+
+.form-submit {
+	margin-top: 10px;
+	padding: 15px;
+	width: 100%;
+	background-color: #FFFF33;
+	border: none;
+	box-shadow: inset 0 -4px #999900;
+}
+
+.form-submit:hover{
+	box-shadow: inset 0 -2px #999900;
+ }
+
+ .form-consultation::after {
+ 	content: url(../img/main-money.png);
+ 	position: absolute;
+ 	right: 90%;
+ 	top: 24rem;
+ }

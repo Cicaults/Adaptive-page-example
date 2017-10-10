@@ -1,0 +1,72 @@
+.steps {
+	background-color: #FBFBFB;
+	font-family: Underground-Book;
+	
+}
+.steps__wrapper {
+	padding: 6rem 0;
+	text-align: center;
+}
+
+.steps__numbers {
+	font-family: Underground-Heavy;
+	font-size: 100px;
+	color: rgb(255,255,51);
+}
+
+.steps__line, .steps__text {
+	margin-bottom: 30px;
+}
+
+.steps__line img {
+	width: 84%;
+}
+
+
+.steps__text {
+	font-size: 18px;
+	color: rgb(51,51,51);
+	font-family: Underground-Book;
+}
+
+.form_dark {
+	padding: 5.4rem 5rem 0 5rem;
+	background-color: #333333;
+	border-radius: 6px;
+}
+
+.form__field_dark {
+	margin-right: 10px;
+}
+
+.form__field_dark,
+.form_dark .form-submit  {
+	display: inline-block;
+	width: calc(33% - 20px);
+}
+
+.form_dark .form-submit {
+	height: 60px;
+	margin: 0;
+	margin-bottom: 5.4rem;
+	font-size: 15px;
+}
+
+.form__field-input_dark {
+	height: 60px;
+	color: white;
+	background-color: #333333;
+	border-color: white;
+}
+
+.form__field-addon-name_dark,
+.form__field-addon-phone_dark {
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+ }
+
+.form__field-addon-name_dark > img,
+.form__field-addon-phone_dark > img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}

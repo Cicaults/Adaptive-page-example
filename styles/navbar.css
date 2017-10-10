@@ -1,0 +1,145 @@
+.navbar {
+	background-color: white;
+	font-family: Underground-Book;
+}
+
+.navbar-dock {
+	background-color: transparent;
+}
+
+.navbar .container {
+	padding: 2.5rem 3rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-dock .navbar-header {
+	margin-right: auto;
+	margin-left: 2rem;
+}
+
+.icon-bar {
+	background-color: black;
+}
+
+.navbar-dock .icon-bar {
+	background-color: white;
+}
+
+.brand {
+	padding: 0 2rem;
+}
+
+.brand__image {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+.navbar-dock .brand__image { 
+	-webkit-filter: none;
+	filter: none;
+}
+
+.navbar-brand__text {
+	float: left;
+	text-align: left;
+	line-height: 1.4rem;
+	padding-top: 1.3rem;
+}
+
+.navbar-dock .navbar-brand__text {
+	color: white;
+	font-family: Underground-Heavy;
+}
+
+.navbar-brand__text-title {
+	font-weight: bold;
+	font-size: 1.7rem;
+
+}
+
+.navbar-brand__text-subtitle {
+	font-size: 1.2rem;
+	color: #c9c9c9;
+}
+
+.navbar-items {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+
+.navbar-dock .navbar-items {
+	display: none;
+}
+
+.navbar-items__text {
+	font-size: 1.6rem;
+	margin-right: 2rem;
+}
+
+.navbar-items__text:hover {
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+.navbar-items__text a {
+	padding: 0 !important;
+	color: #333333;
+	text-decoration: none;
+	background-color: transparent !important;
+}
+
+.navbar-phone-group {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	align-items: center;
+}
+
+.navbar-phone-group .btn {
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left: 0;
+	white-space: normal;
+	background-color: transparent;
+	padding: 12px;
+	font-size: 1.3rem;
+	font-family: Underground-Thin;
+	color: #4e4e4e;
+}
+
+.navbar-phone-group .btn:hover {
+	background-color: #333333;
+	color: white;
+}
+
+.navbar-dock .navbar-phone-group .btn {
+	color: white;
+	border-color: white;
+}
+
+.navbar-dock .navbar-phone-group .btn:hover {
+	color: #a0a0a0;
+	background-color: white;
+}
+
+.navbar-phone-group .phone-number {
+	font-family: Underground-Heavy;
+	font-size: 2rem;
+	margin-left: 2rem;
+}
+
+.navbar-dock .navbar-phone-group .phone-number {
+	color: white;
+}
+

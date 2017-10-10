@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Underground-Heavy;
+	src: url(../fonts/P22UndergroundCYPro-Heavy.otf);
+}
+
+@font-face{
+	font-family: Underground-Book;
+	src: url(../fonts/P22UndergroundCYPro-Book.otf);
+}
+
+@font-face{
+	font-family: Underground-Demi;
+	src: url(../fonts/P22UndergroundCYPro-Demi.otf);
+}
+
+@font-face{
+	font-family: Underground-Medium;
+	src: url(../fonts/P22UndergroundCYPro-Medium.otf);
+}
+
+@font-face{
+	font-family: Underground-Thin;
+	src: url(../fonts/P22UndergroundCYPro-Thin.otf);
+}
